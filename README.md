@@ -167,4 +167,49 @@ The font size for the text within the element with the ID p2 is set to 18 pixels
 margin-top: 2%;
 I've added a top margin of 2% to the element with the ID p2. This creates a small gap between this element and any content or elements above it, helping to maintain a clean layout.
 
-Step-6
+Step-6 & 7
+![6](https://github.com/trishaDas13/shoePage/assets/126088849/3f7439c2-b334-4bc2-a660-3dec0008f3a1)
+![7](https://github.com/trishaDas13/shoePage/assets/126088849/5342b5d1-e19e-4979-8133-1b41d802880f)
+
+html:-
+
+![html](https://github.com/trishaDas13/shoePage/assets/126088849/18ace5d2-f9c8-43dc-b9b5-63113e408fd0)
+
+"div class="image": This div element has the class "image," which can be used for applying CSS styles or selecting it with JavaScript. It serves as a container for the img element.
+
+"img src="./shoe-1.png" alt="shoe" height="300px" width="600px"": Inside the div, there's an img element.
+
+src="./shoe-1.png": This sets the source URL of the image to "shoe-1.png," presumably located in the same directory as the HTML file.
+alt="shoe": The alt attribute provides alternative text that describes the image for accessibility purposes and displays if the image cannot be loaded.
+height="300px": This attribute sets the height of the image to 300 pixels.
+width="600px": This attribute sets the width of the image to 600 pixels.
+
+CSS:-
+
+![css](https://github.com/trishaDas13/shoePage/assets/126088849/e3970237-91df-44ce-bb18-b310c551cc22)
+
+For .image:
+
+right: 5px;
+I've positioned the element with the class image 5 pixels from the right edge of its containing element. This means the element will be placed slightly to the left from the right edge.
+
+top: 70px;
+I've positioned the element with the class image 70 pixels from the top edge of its containing element. This vertical positioning ensures the element starts 70 pixels down from the top.
+
+position: absolute;
+I've set the position of the element with the class image to be "absolute." This positioning type takes the element out of the normal flow of the document and allows you to place it precisely on the page based on the top, right, bottom, and left properties.
+
+For img:hover:
+
+height: 550px;
+When hovering over an <img> element, I've set its height to 550 pixels. This change in height occurs when the user hovers their cursor over the image, potentially making it larger and more prominent.
+
+width: 900px;
+Similarly, when the user hovers over an <img> element, I've set its width to 900 pixels. This change in width occurs on hover, potentially enlarging the image horizontally.
+
+These rules create an interactive effect where the image grows in size when hovered over. The .image class rules define the initial positioning of an element with that class, and the img:hover rules define the behavior of images when hovered.
+
+
+<h3> Final Product with Hover effect </h3>
+![8](https://github.com/trishaDas13/shoePage/assets/126088849/5b11290d-a4af-4855-aa27-c79c2508ae03)
+
